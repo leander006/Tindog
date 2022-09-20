@@ -1,0 +1,159 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+h1,h2,h3,h4,h5,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+/* <--Headings--> */
+.big-heading{
+    font-size: 2rem;
+    line-height: 2rem; 
+    font-weight: bold;
+   font-family:'Times New Roman', Times, serif
+
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 2rem;
+}
+/* <--tilte--> */
+#title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+/* <--navigation bar--> */
+.navbar-nav{
+   margin-left: auto;
+}
+.navbar-brand{
+    font-family:'Times New Roman', Times, serif
+}
+    .navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem ;
+}
+.bt{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 20%;
+    transform: rotate(24deg);
+    position: absolute;
+}
+/* Features section */
+#features{
+   
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-title{
+    font-size: 2rem;
+}
+
+
+i:hover{
+   color: #ff4c68;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* <!-- Testimonials --> */
+#testimonials{
+    background-color: #ff4c68;
+    color: white;
+}
+.testimonial-text{
+    font-size: 2rem;
+    line-height: 2rem;
+    
+}
+
+.text-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+#press{
+    background-color: #ff4c68;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 10px 10px 20px;
+}
+
+/* <--pricing--> */
+
+#pricing{
+    padding: 100px;
+}
+.price-text{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.pricing-column{
+padding: 3% 2%;
+text-align: center;
+}
+
+/* <!-- Call to Action --> */
+
+#cta{
+     
+     background-color:  #ff4c68;
+    
+     color: white;
+     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  
+}
+
+/* <!-- Footer --> */
+#footer{
+   
+    background-color: white;
+    text-align: center;
+}
+.handle{
+   
+ 
+    margin: 20px 10px; 
+ 
+    
+}
+
+
+@media (max-width:994px){
+ #title{
+     text-align: center;
+ }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
